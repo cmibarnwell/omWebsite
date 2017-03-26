@@ -1,0 +1,142 @@
+<!--
+ ******************************************************************************
+  Outlier Media Website                             	 March 23, 2017
+  Copyright Outlier Media
+  Written by: Caleb Barnwell
+ ******************************************************************************
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta charset="UTF-8">
+	<title>Outlier Media</title>
+	<meta name="description" content="Official Website of Outlier Media">
+    <meta name="author" content="Caleb Barnwell">
+
+
+<!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link rel="stylesheet" href="css/notSassCSS/circNav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/notSassCSS/jquery.bxslider.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet">
+
+
+<!-- Scripts
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	<!-- ADD GOOGLE ANALYTICS HERE -->
+
+<!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image" href="images/logo.jpg">
+
+
+</head>
+<body>
+<a name="home">
+
+<!-- title
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<div class="title-wrapper">
+		<h1>Outlier Media</h1>
+	</div>
+<div class="clearfix"></div>
+
+<!-- Slider
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<div class="slide-wrap">
+		<section class="slider">
+			<ul class="slider1">
+				<li><img src="images/omBanner.jpg"></li>
+				<li><img src="images/OM1.jpg"></li>
+				<li><img src="images/OM3.jpg"></li>
+			</ul>
+		</section>
+	</div>
+	<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+
+<div class="clearfix"></div>
+
+<!-- Banner
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<div id="banner-wrapper">
+		<div class="logo2"><img src="images/logo.jpg"></div>
+		<br><br>
+	</div>
+<div class="clearfix"></div>
+
+
+<footer>
+	<ul class="social">
+		<li class="email"><a href="mailto:Outliermediaandmarketing@gmail.com"><i class="fa fa-envelope fa-lg"></i></a></li>
+		<li class="facebook"><a href="https://www.facebook.com/OutlierMediaAndMarketing/" target="_blank"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+		<li class="twitter"><a href="#" target="_blank"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+		<li class="instagram"><a href="https://www.instagram.com/outlier.media" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+	</ul>
+
+	<p>&copy;2017 Outlier Media. All Rights Reserved.</p>
+</footer>
+
+<!-- Navigation
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+<button class="cn-button" id="cn-button">+</button>
+<div class="cn-wrapper" id="cn-wrapper">
+   <ul>
+       <li><a href="#"><span class=""></span></a></li>
+       <li><a href="html/about.html"><span class="fa fa-question-circle-o fa-lg"></span></a></li>
+       <li class="active"><a href="#home"><span class="fa fa-home fa-lg"></span></a></li>
+       <li><a href="html/services.html"><span class="fa fa-shopping-cart fa-lg"></span></a></li>
+       <li><a href="html/contact.html"><span class="fa fa-envelope fa-lg"></span></a></li>
+   </ul>
+</div>
+<div id="cn-overlay" class="cn-overlay"></div>
+
+<!-- End of HTML Scripts
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="js/polyfills.js"></script>
+<script src="js/circNav.js"></script>
+<script src="js/scrollScript.js"></script>
+
+
+</body>
+</html>
